@@ -140,14 +140,22 @@ h2{
 
 
 #hobbies .card{
-    text-align:center;
+    text-align: center;
+    height: 180px;         
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hobbies .card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #hobbies h4{
-    color:#047857;
-    font-weight:600;
+    margin: 0;
 }
-
 
 @media (max-width:992px){
 
